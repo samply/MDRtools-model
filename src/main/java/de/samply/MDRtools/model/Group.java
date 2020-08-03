@@ -1,10 +1,22 @@
-package de.samply.fhir2mdr.model;
+package de.samply.MDRtools.model;
 
-import javax.naming.Name;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Namespace extends Element {
+public class Group extends ElementWithSlots{
+
+    private static final  String type = "group";
+
+    private List<ElementWithSlots> members;
+
+    public Group(){
+        this.members = new ArrayList<>();
+    }
+
+    @Override
+    public String getType() {
+        return type;
+    }
 
     public List<ElementWithSlots> getMembers() {
         return members;
@@ -13,22 +25,6 @@ public class Namespace extends Element {
     public void setMembers(List<ElementWithSlots> members) {
         this.members = members;
     }
-
-    private List<ElementWithSlots> members;
-
-    public Namespace(){
-        this.members = new ArrayList<>();
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    private String name;
 
     public void removeEmptyGroups(){
         List<ElementWithSlots> cleanedMembers = new ArrayList<>();

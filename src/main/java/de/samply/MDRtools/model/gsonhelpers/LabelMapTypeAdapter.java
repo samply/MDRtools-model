@@ -1,4 +1,4 @@
-package de.samply.fhir2mdr.model.gsonhelpers;
+package de.samply.MDRtools.model.gsonhelpers;
 
 import java.io.IOException;
 import java.util.HashMap;
@@ -9,7 +9,7 @@ import com.google.gson.stream.JsonReader;
 import com.google.gson.stream.JsonToken;
 import com.google.gson.stream.JsonWriter;
 
-import de.samply.fhir2mdr.model.*;
+import de.samply.MDRtools.model.*;
 
 public class LabelMapTypeAdapter extends TypeAdapter<Map<String,Label>> {
 

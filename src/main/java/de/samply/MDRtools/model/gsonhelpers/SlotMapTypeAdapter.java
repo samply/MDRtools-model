@@ -1,4 +1,4 @@
-package de.samply.fhir2mdr.model.gsonhelpers;
+package de.samply.MDRtools.model.gsonhelpers;
 
 import java.io.IOException;
 import java.util.HashMap;

@@ -1,4 +1,4 @@
-package de.samply.fhir2mdr.model;
+package de.samply.MDRtools.model;
 
 import com.google.gson.annotations.SerializedName;
 

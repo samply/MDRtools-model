@@ -1,4 +1,4 @@
-package de.samply.fhir2mdr.model;
+package de.samply.MDRtools.model;
 
 public class BooleanType implements IValidationType {
 

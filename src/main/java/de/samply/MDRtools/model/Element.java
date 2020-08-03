@@ -1,4 +1,4 @@
-package de.samply.fhir2mdr.model;
+package de.samply.MDRtools.model;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -7,7 +7,7 @@ import com.google.common.reflect.TypeToken;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
-import de.samply.fhir2mdr.model.gsonhelpers.*;
+import de.samply.MDRtools.model.gsonhelpers.*;
 
 
 public abstract class Element {

@@ -1,10 +1,9 @@
-package de.samply.fhir2mdr.model.gsonhelpers;
+package de.samply.MDRtools.model.gsonhelpers;
 
 import com.google.gson.*;
-import de.samply.fhir2mdr.model.DataElement;
-import de.samply.fhir2mdr.model.ElementWithSlots;
-import de.samply.fhir2mdr.model.Group;
-import de.samply.fhir2mdr.model.IValidationType;
+import de.samply.MDRtools.model.DataElement;
+import de.samply.MDRtools.model.ElementWithSlots;
+import de.samply.MDRtools.model.Group;
 
 import java.lang.reflect.Type;
 

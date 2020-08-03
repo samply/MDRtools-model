@@ -1,7 +1,7 @@
-package de.samply.fhir2mdr.model.gsonhelpers;
+package de.samply.MDRtools.model.gsonhelpers;
 
 import com.google.gson.*;
-import de.samply.fhir2mdr.model.*;
+import de.samply.MDRtools.model.*;
 
 import java.lang.reflect.Type;
 

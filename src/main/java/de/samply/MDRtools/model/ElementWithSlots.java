@@ -1,4 +1,4 @@
-package de.samply.fhir2mdr.model;
+package de.samply.MDRtools.model;
 
 import java.util.HashMap;
 import java.util.Map;
