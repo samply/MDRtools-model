@@ -6,7 +6,7 @@
 
     <groupId>de.samply.mdr-tools</groupId>
     <artifactId>mdr-tools-model</artifactId>
-    <version>1.0</version>
+    <version>1.0.3</version>
 	<properties>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
