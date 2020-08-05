@@ -18,8 +18,8 @@ mdrenum.addValue(val1);
 
 Group group = new Group();
 group.setLabel("en","test group","this is a test group");
-group.getmembers().add(ge);
-group.getmembers().add(deEnum);
+group.getMembers().add(ge);
+group.getMembers().add(deEnum);
 
 Namespace namespace = new Namespace();
 namespace.setName("mynamespace");
